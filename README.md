@@ -36,3 +36,16 @@ new_game_state = game_state[(i, j)]
 ```
 
 To see the other movement options you can see [here](src/game_moves.py)
+
+## Usage
+
+```python
+python3 force_brute.py -D 5
+```
+
+where D is the nested recursive level
+
+The output will be a image with recusrsive tree (using D 5).
+
+
+![Image of Yaktocat](brute_force.png)
