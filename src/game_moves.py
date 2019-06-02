@@ -142,12 +142,12 @@ def mov_posible(game_state, before_mov=None):
         elif before_mov == mov_flip:
             movements.remove(mov_flip)
 
-    if (game_state[0][0] != -1) and mov_izq_up in movements:
+    if (game_state[0][0] != -1) & (mov_izq_up in movements):
         movements.remove(mov_izq_up)
-    if (game_state[1][0] != -1) and mov_izq_down in movements:
+    if (game_state[1][0] != -1) & (mov_izq_down in movements):
         movements.remove(mov_izq_down)
-    if (game_state[0][6] != -1) and mov_der_up in movements:
+    if (game_state[0][6] != -1) & (mov_der_up in movements):
         movements.remove(mov_der_up)
-    if (game_state[1][6] != -1) and mov_der_down in movements:
+    if (game_state[1][6] != -1) & (mov_der_down in movements):
         movements.remove(mov_der_down)
     return movements
