@@ -30,7 +30,7 @@ def main(deep):
     global max_deep
     max_deep = deep
     game_state = np.array([[-1, 1, 4, 0, 7, 2, -1], [-1, 5, 8, 9, 3, 6, -1]])
-    recursive_function(game_state, None, 1)
+    recursive_function(game_state, None, 0)
     A = to_agraph(G)
     A.layout('dot')
     A.draw('brute_force.png')
