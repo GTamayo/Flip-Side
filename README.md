@@ -10,7 +10,7 @@ Flip-Side is a recent puzzle by Thinkfun. It consists of a frame containing 10 n
 Flip-Side was invented by Ferdinand Lammertink, who also invented Topspin, Backspin, and Triple Cross. The puzzle's patent, US 2006/279041, was published 14 December 2006.
 
 
-## Game Representatión
+## Game representation
 
 We will represent the game-state as a bidimensional matrix where the empty spaces will be represented with the value -1. To implement this we use a numpy array.
 
