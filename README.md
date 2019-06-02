@@ -4,7 +4,7 @@ Flip-Side is a recent puzzle by Thinkfun. It consists of a frame containing 10 n
 
 
 
-![Image of Yaktocat](images/flip_image.png)
+![Image game](images/flip_image.png)
 
 
 Flip-Side was invented by Ferdinand Lammertink, who also invented Topspin, Backspin, and Triple Cross. The puzzle's patent, US 2006/279041, was published 14 December 2006.
@@ -45,7 +45,8 @@ python3 force_brute.py -D 5
 
 where D is the nested recursive level
 
-The output will be a image with recusrsive tree (using D 5).
+The output will be a image with recusrsive tree (using D 7).
 
 
-![Image of Yaktocat](brute_force.png)
+
+<img src="brute_force.png" alt="drawing"  height="400px"/>
