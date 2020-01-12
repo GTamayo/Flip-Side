@@ -40,7 +40,7 @@ To see the other movement options you can see [here](src/game_moves.py)
 ## Usage
 
 ```python
-python3 force_brute.py -D 5
+python3 brute_force.py -D 5
 ```
 
 where D is the nested recursive level
